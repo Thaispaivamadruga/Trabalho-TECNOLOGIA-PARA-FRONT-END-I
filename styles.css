@@ -1,0 +1,508 @@
+body{
+  background-color: #d1d1d1db;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: #21272B;
+  color: #FFFFFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font:lighter;
+  position: relative;
+  margin-left: 11%;
+  margin-right: 11.4% ;
+}
+#logo{
+  margin-left: 20px;
+  padding: 0px;
+  float: left;
+  margin-top: 1%;
+}
+#imagenlo{
+  float: left;
+  margin-right: 10px;
+}
+#nomelogo{
+  float: left;
+  margin-top: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+#luxo{
+  color: #1BB4E8;
+  font-size: 130%;
+}
+#aluguel{
+  color: #FFFFFF;
+  font-size:120% ;
+}
+#menu-h ul{
+  list-style: none;
+  padding: 3%;
+  text-align: right;
+  font-size: 120%;
+}
+#menu-h ul li {
+  display: inline;
+}
+#menu-h ul li a {
+  color: #FFFFFF;
+  padding: 2%;
+  display: inline-block;
+  text-decoration: none;
+  display: inline;
+}
+#menu-h ul li a:hover {
+  color: #1BB4E8;
+  text-decoration: none;
+  font-size: 105%;
+  transition: .3s;
+}
+
+
+
+#imagenprin{
+  align-items: center;
+  width: auto;
+  font-size: clamp(1em, 0.5em + 1vw, 0.5em);
+}
+#barcoPrincipal{
+  margin-left: 11%;
+  margin-right: 11.5%;
+  position:absolute;
+  width: 77.8%;
+}
+#quadro{
+  background-color: black;
+  opacity: 78%;;
+  color: #FFFFFF;
+  text-align: right;
+  padding: 1.5%;
+  float: right;
+  position: relative;
+  margin-right: 20%;
+  margin-top: 20%;
+  width: 30%;
+  height: 100%;
+}
+#barco2{
+  float: left;
+  margin-top: 5%;
+  width: 7%;
+}
+#texto1{
+  font-size: max(3px,2vw);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  width: auto;
+  opacity: 100%;
+  text-align: left;
+}
+#texto2{
+  font-size: max(2.2px,1.5vw);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  margin-top: 2%;
+  width: auto;
+  opacity: 100%;
+  text-align: left;
+  padding-left: 10%;
+}
+a{
+  text-decoration: none;
+}
+a:visited {
+  color:currentColor;
+}
+#blocos{
+  margin-top: 39%;
+  background-color: #FFFFFF;
+  margin-right: 11.4%;
+  margin-left: 11%;
+  display: flex;
+  padding-bottom: 5%;
+}
+#destino{
+  width: 42%;
+  float: left;
+  list-style: none;
+  margin-left: 5%;
+  margin-top: 2%;
+  text-decoration: none;
+}
+#destino :hover{
+  color: #1500b7;
+}
+#titulodestino{
+  background-color: #1BB4E8;
+  color: #EBEBEB;
+  display: inline-flex;
+  width: 100%;
+  vertical-align: middle;
+}
+#textotino{
+  font-size:120%;
+  font-style: italic;
+  font:lighter;
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+#destinoi{
+  width: 10%;
+  height: 10%;
+}
+#barcodestino{
+  width: 100%;
+}
+#subdestino{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-style:italic;
+  font-size: 100%;
+
+}
+#textodestino{
+  font-size: 80%;
+  margin-bottom: 5%;
+}
+#titulonossafrota{
+  background-color: #C6B07F;
+  color: #EBEBEB;
+  display: inline-flex;
+  text-align:start;
+  width: 100%;
+  height: 100%;
+}
+#textonossa{
+  font-size:120%;
+  font-style: italic;
+  font:lighter;
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+#frotaima{
+  width: 10%;
+  height: 10%;
+}
+#frotas{
+  width: 42%;
+  float: right;
+  list-style: none;
+  margin-right: 5%;
+  margin-top: 2%;
+  align-items: center;
+}
+#frotas :hover{
+  color: #1500b7;
+}
+#subfrota{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-style:italic;
+  font-size: 100%;
+}
+#textofrota{
+  font-size: 80%;
+  margin-bottom: 5%;
+}
+#caixabarcos1{
+  display: inline-flex;
+}
+#caixabarcos2{
+  display: inline-flex;
+}
+#barcofrota2{
+  width: 47%;
+  margin: 1%;
+}
+#barcofrota1{
+  width: 47%;
+  margin: 1%;
+}
+
+
+
+
+
+#alugeliate{
+  background-color: #EBEBEB;
+  margin-left: 11%;
+  margin-right: 11.5%;
+  display: block;
+  text-align: center;
+  padding-bottom: 10%;
+
+}
+#titAlu{
+  padding-top: 5%;
+  color: #118bb4;
+  font-style: italic;
+  padding-bottom: 3%;
+}
+#planos{
+  list-style: none;
+}
+#planosil{
+  border-top: #1BB4E8 solid 1px;
+  width: 80%;
+  height: 50%;
+  padding-top: 3%;
+}
+#tisilver{
+  color:#118bb4;
+  font-size: 180%;
+  font-style: italic;
+  margin-bottom: 2%;
+}
+#iate1{
+  width: 100%;
+  border-radius: 5%
+}
+#dessil{
+  color:#118bb4;
+  font-size: 180%;
+  font-style: italic;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+#planogold{
+border-top: #1BB4E8 solid 1px;
+padding-top: 5%;
+  width: 80%;
+  height: 50%;
+  padding-bottom: 2%;
+  margin-top: 6%;
+}
+#tigol{
+  color:#118bb4;
+  font-size: 180%;
+  font-style: italic;
+  margin-bottom: 2%;
+}
+#iate2{
+  width: 95%;
+  border-radius: 5%
+}
+#desgol{
+  color:#118bb4;
+  font-size: 180%;
+  font-style: italic;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+#planodiamond{
+  border-top: #1BB4E8 solid 1px;
+  padding-top: 5%;
+  border-bottom:#1BB4E8 solid 1px;
+
+  width: 80%;
+  height: 50%;
+  padding-bottom: 2%;
+  margin-top: 6%;
+}
+#timond{
+  color:#118bb4;
+  font-size: 180%;
+  font-style: italic;
+  margin-bottom: 2%;
+}
+#iate3{
+  width: 95%;
+  border-radius: 5%;
+}
+#desdia{
+  color:#118bb4;
+  font-size: 180%;
+  font-style: italic;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+
+
+
+#destin{
+  background-color: #EBEBEB;
+  margin-left: 11%;
+  margin-right: 11.5%;
+  display: block;
+  text-align: center;
+  padding-bottom: 5%;
+}
+#tidest{
+  padding-top: 5%;
+  color: #118bb4;
+  font-style: italic;
+  padding-bottom: 3%;
+}
+#uldest{
+  list-style: none;
+}
+#pracaixa{
+  border-top: #1BB4E8 solid 1px;
+  width: 80%;
+  height: 50%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+#titupraia{
+  color:#118bb4;
+  font-size: 180%;
+  font-style: italic;
+  margin-bottom: 2%;
+}
+#destoti{
+  color:#118bb4;
+  font-size: 180%;
+  font-style: italic;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+#areiaver{
+  width: 80%;
+  border-radius: 5%;
+}
+#coqueirinho{
+  width: 80%;
+  border-radius: 5%;
+}
+#lucena{
+  width: 80%;
+  border-radius: 5%;
+  
+}
+#jacare{
+  width: 80%;
+  border-radius: 5%;
+}
+
+
+
+
+#pilo{
+
+}
+#pilohom{
+  display: inline-flex;
+  height: 25%;
+  width: 50%;
+}
+#pilomu{
+  display: inline-flex;
+  height: 25%;
+  width: 50%;
+}
+#cap1{
+  width: 50%;
+  margin: 1%;
+  border-radius: 5%;
+}
+#cap2{
+  width: 50%;
+  margin: 1%;
+  border-radius: 5%;
+}
+#cap3{
+  width: 50%;
+  margin: 1%;
+  border-radius: 5%;
+}
+#cap4{
+  width: 50%;
+  margin: 1%;
+  border-radius: 5%;
+}
+#copeiro{
+width: 50%;
+border-radius: 5%;
+}
+#auxi{
+  width: 40%;
+  border-radius: 5%;
+}
+
+
+
+#contatoform {
+  background-color: #EBEBEB;
+  margin-left: 11%;
+  margin-right: 11.4% ;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #118bb4;
+  padding-bottom: 5%;
+}
+#cabeçalhocontato{
+  margin-bottom: 5%;
+  text-align: center;
+}
+form {
+  background-color: #EBEBEB;
+}
+form label, form legend {
+	display:block;
+	font-size: 130%;
+	margin: 0 0 10px;
+  border: #1BB4E8;
+}
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width:100%;
+  border: none;
+	border-radius: 20px;
+}
+.enviar {
+  width:auto;
+	padding: 2%;
+	background: #118bb4;
+	color: white;
+  font-style: italic;
+	font-size: 100%;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+.limpar{
+  width:auto;
+	padding: 1%;
+	background: #9a0000;
+	color: white;
+  font-style: italic;
+	font-size: 50%;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+.enviar:hover {
+	background: #00b789;
+}
+.limpar:hover {
+	background:#00b789;
+}
+
+
+
+
+
+.copyright{
+  float: left;
+  bottom: 0;
+  color: rgb(0, 0, 0);
+  font-size:80%;
+  background-color: rgb(174, 174, 174);
+  padding: 2%;
+  padding-left:12%;
+  padding-right: 13%;
+  width: 100%;
+}
